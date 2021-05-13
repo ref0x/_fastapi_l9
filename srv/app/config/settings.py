@@ -14,6 +14,5 @@ class AppModels(BaseSettings):
 	]
 
 
-# settings = Settings()
 # database = Database()
 app_models = AppModels()
