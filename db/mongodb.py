@@ -7,7 +7,7 @@ client = motor.motor_asyncio.AsyncIOMotorClient('mongodb://localhost:27017')
 
 db = client.test_database
 collection = db['test_collection']
-#
+
 async def do_insert():
 	document = {'second request': '123', 'second request_2': 456}
 	result = await db.test_collection.insert_one(document)
